@@ -18,13 +18,17 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += device/google/bonito/overlay/packages/a
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.euicc.xml:system/etc/permissions/android.hardware.telephony.euicc.xml
 
+# Google device
+PRODUCT_PACKAGES += \
+    SystemUIGoogle
+
 # LMK
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.lmk.use_psi=true
 
 # Preopt SystemUI
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUI
+    SystemUIGoogle
 
 # RCS
 PRODUCT_PACKAGES += \
