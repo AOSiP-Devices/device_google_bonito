@@ -14,7 +14,7 @@ TARGET_KERNEL_ADDITIONAL_FLAGS := \
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CONFIG := lineageos_bonito_defconfig
-TARGET_KERNEL_SOURCE := kernel/google/msm-4.9
+TARGET_KERNEL_SOURCE := kernel/google/bonito
 
 DEVICE_MANIFEST_FILE += device/google/bonito/lineage_manifest.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += device/google/bonito/lineage_compatibility_matrix.xml

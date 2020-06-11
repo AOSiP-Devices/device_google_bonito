@@ -1,0 +1,11 @@
+[
+  {
+   "repository":  "LineageOS/android_kernel_google_msm-4.9",
+   "target_path": "kernel/google/bonito",
+   "branch":      "lineage-17.1"
+  },
+  {
+   "repository":  "vendor_google",
+   "target_path": "vendor/google"
+  }
+]

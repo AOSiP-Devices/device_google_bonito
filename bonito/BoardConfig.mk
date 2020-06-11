@@ -14,8 +14,8 @@
 # limitations under the License.
 #
 
-# Allow Lineage config to override others
--include device/google/bonito/bonito/BoardConfigLineage.mk
+# Allow AOSiP config to override others
+-include device/google/bonito/bonito/BoardConfigKronic.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := bonito
 TARGET_SCREEN_DENSITY := 400

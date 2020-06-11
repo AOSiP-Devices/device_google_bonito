@@ -11,8 +11,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     drm.service.enabled=true \
     media.mediadrmservice.enable=true
 
-DEVICE_PACKAGE_OVERLAYS += device/google/bonito/overlay-lineage
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += device/google/bonito/overlay-lineage/lineage-sdk
+DEVICE_PACKAGE_OVERLAYS += device/google/bonito/overlay-aosip
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += device/google/bonito/overlay/packages/apps/Bluetooth
 
 # EUICC
