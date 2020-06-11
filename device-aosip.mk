@@ -32,9 +32,6 @@ PRODUCT_PACKAGES += \
     PresencePolling \
     RcsService
 
-# Snap
-PRODUCT_PACKAGES += Snap
-
 # Utilities
 PRODUCT_PACKAGES += \
     libjson \
