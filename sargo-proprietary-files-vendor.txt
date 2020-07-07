@@ -1,4 +1,3 @@
-vendor/dsp/adsp/elmyra.so
 vendor/etc/sensors/config/s4_ak991x_0.json
 vendor/etc/sensors/config/s4_tmd2725_0.json
 vendor/etc/thermal-engine-sargo.conf
