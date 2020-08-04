@@ -16,4 +16,9 @@ TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CONFIG := lineageos_bonito_defconfig
 TARGET_KERNEL_SOURCE := kernel/google/bonito
 
+ifneq ($(WITH_GMS),true)
+    BOARD_PRODUCTIMAGE_PARTITION_RESERVED_SIZE ?= 629145600
+    BOARD_SYSTEMIMAGE_PARTITION_RESERVED_SIZE ?= 629145600
+endif
+
 -include vendor/google/bonito/BoardConfigVendor.mk
